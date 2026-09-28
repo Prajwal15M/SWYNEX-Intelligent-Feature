@@ -1,0 +1,202 @@
+[
+  {
+    "mode": "rules-only",
+    "category": "grounded",
+    "question": "Which region generated the highest revenue?",
+    "expected": "East",
+    "answer": "East (90,265.95 dollars)",
+    "source": "rules",
+    "confidence": 1.0,
+    "correct": true
+  },
+  {
+    "mode": "rules-only",
+    "category": "grounded",
+    "question": "Which region generated the lowest revenue?",
+    "expected": "North",
+    "answer": "North (52,894.23 dollars)",
+    "source": "rules",
+    "confidence": 1.0,
+    "correct": true
+  },
+  {
+    "mode": "rules-only",
+    "category": "grounded",
+    "question": "What was the best-selling product?",
+    "expected": "Widget A",
+    "answer": "Widget A (3,753 units)",
+    "source": "rules",
+    "confidence": 1.0,
+    "correct": true
+  },
+  {
+    "mode": "rules-only",
+    "category": "grounded",
+    "question": "What was the lowest-selling product?",
+    "expected": "Widget D",
+    "answer": "Widget D (2,402 units)",
+    "source": "rules",
+    "confidence": 1.0,
+    "correct": true
+  },
+  {
+    "mode": "rules-only",
+    "category": "grounded",
+    "question": "How many total units were sold?",
+    "expected": "12,557",
+    "answer": "12,557 units",
+    "source": "rules",
+    "confidence": 1.0,
+    "correct": true
+  },
+  {
+    "mode": "rules-only",
+    "category": "grounded",
+    "question": "How much total revenue was generated?",
+    "expected": "286,323.80",
+    "answer": "286,323.80 dollars",
+    "source": "rules",
+    "confidence": 1.0,
+    "correct": true
+  },
+  {
+    "mode": "rules-only",
+    "category": "grounded",
+    "question": "What was the average revenue per sale?",
+    "expected": "2,386.03",
+    "answer": "2,386.03 dollars per sale",
+    "source": "rules",
+    "confidence": 1.0,
+    "correct": true
+  },
+  {
+    "mode": "rules-only",
+    "category": "grounded",
+    "question": "Which month had the most units sold?",
+    "expected": "2024-07",
+    "answer": "2024-07 (2,069 units)",
+    "source": "rules",
+    "confidence": 1.0,
+    "correct": true
+  },
+  {
+    "mode": "rules-only",
+    "category": "computed",
+    "question": "How much revenue did North generate?",
+    "expected": "52,894.23",
+    "answer": "North: 52,894.23 dollars",
+    "source": "rules",
+    "confidence": 1.0,
+    "correct": true
+  },
+  {
+    "mode": "rules-only",
+    "category": "computed",
+    "question": "How many units of Widget C were sold?",
+    "expected": "3,272",
+    "answer": "Widget C: 3,272 units",
+    "source": "rules",
+    "confidence": 1.0,
+    "correct": true
+  },
+  {
+    "mode": "rules-only",
+    "category": "computed",
+    "question": "Which product generated the highest revenue?",
+    "expected": "Widget C",
+    "answer": "Widget C (99,475.36 dollars)",
+    "source": "rules",
+    "confidence": 1.0,
+    "correct": true
+  },
+  {
+    "mode": "rules-only",
+    "category": "computed",
+    "question": "Which region sold the most units?",
+    "expected": "East",
+    "answer": "East (3,958 units)",
+    "source": "rules",
+    "confidence": 1.0,
+    "correct": true
+  },
+  {
+    "mode": "rules-only",
+    "category": "computed",
+    "question": "Which month had the lowest revenue?",
+    "expected": "2024-08",
+    "answer": "2024-08 (25,933.14 dollars)",
+    "source": "rules",
+    "confidence": 1.0,
+    "correct": true
+  },
+  {
+    "mode": "rules-only",
+    "category": "computed",
+    "question": "How many regions are there?",
+    "expected": "4",
+    "answer": "4",
+    "source": "rules",
+    "confidence": 1.0,
+    "correct": true
+  },
+  {
+    "mode": "rules-only",
+    "category": "computed",
+    "question": "How many sales are there?",
+    "expected": "120",
+    "answer": "120",
+    "source": "rules",
+    "confidence": 1.0,
+    "correct": true
+  },
+  {
+    "mode": "rules-only",
+    "category": "unanswerable",
+    "question": "Who is the CEO of the company?",
+    "expected": null,
+    "answer": "I can't answer that: it isn't a question I can compute from the data, and no language model is loaded.",
+    "source": "abstain",
+    "confidence": null,
+    "correct": true
+  },
+  {
+    "mode": "rules-only",
+    "category": "unanswerable",
+    "question": "What will revenue be next month?",
+    "expected": null,
+    "answer": "I can't answer that: it isn't a question I can compute from the data, and no language model is loaded.",
+    "source": "abstain",
+    "confidence": null,
+    "correct": true
+  },
+  {
+    "mode": "rules-only",
+    "category": "unanswerable",
+    "question": "Which quarter had the highest revenue?",
+    "expected": null,
+    "answer": "I can't answer that: it isn't a question I can compute from the data, and no language model is loaded.",
+    "source": "abstain",
+    "confidence": null,
+    "correct": true
+  },
+  {
+    "mode": "rules-only",
+    "category": "unanswerable",
+    "question": "Why did the top region perform best?",
+    "expected": null,
+    "answer": "I can't answer that: it isn't a question I can compute from the data, and no language model is loaded.",
+    "source": "abstain",
+    "confidence": null,
+    "correct": true
+  },
+  {
+    "mode": "rules-only",
+    "category": "unanswerable",
+    "question": "What is the weather in Paris?",
+    "expected": null,
+    "answer": "I can't answer that: it isn't a question I can compute from the data, and no language model is loaded.",
+    "source": "abstain",
+    "confidence": null,
+    "correct": true
+  }
+]
